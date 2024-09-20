@@ -4,7 +4,7 @@ export default function printIsland() {
 
   const island = new THREE.Group();
 
-  const topGeometry = new THREE.CylinderGeometry(5, 5, 0.5, 9);
+  const topGeometry = new THREE.CylinderGeometry(5.5, 5.5, 0.5, 9);
   const topMaterial = new THREE.MeshStandardMaterial({
     color: 0x6ca06e,
   })
