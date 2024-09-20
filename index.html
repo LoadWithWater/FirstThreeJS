@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- es.modules.shism 폴리필 -->
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.152.2/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <!-- 3-1. 기본 구성 요소 (Scene,Camera,Renderer) -->
+    <!-- <script src="./src/js/3-1.Scene,Camera,Renderer.js" type="module"></script>
+    <canvas id="result" style="border:1px solid red" width="500px"; height="800px"></canvas> -->
+
+    <!-- 3-2. 화면 출력 (애니메이션, 반응형) -->
+    <!-- <script src="./src/js/3-2.Animation.media.js" type="module"></script> -->
+
+    <!-- 4-1. Geometry -->
+    <script src="./src/js/4-1.Geometry.js" type="module"></script>
+</body>
+</html>
